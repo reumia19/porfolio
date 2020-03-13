@@ -1,3 +1,3 @@
-alert('이건 연습이니까 실패해도 실수해도 뭐라 하기 없기다!');
+alert('아니 아직 아무것도 안 만들었는데... 벌써 올 줄은 몰랐지.. 나중에 오세요');
 const myName =document.querySelector("#myName");
 myName.style.color = "white";
