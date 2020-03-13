@@ -1,2 +1,13 @@
-body{background-color:#34558b;}
-h1{color: white; padding-top: 20px;}
+body{
+	background-color:#34558b;
+}
+
+h1{
+	color: white;
+	padding-top: 20px;
+	transition: color 0.5s ease-in-out;
+}
+
+.clicked{
+	color:#7f8c8d;
+}
