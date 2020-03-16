@@ -12,14 +12,28 @@ function saveName(text){
 
 function handleSubmit(event){
 	const currentValue = input.value;
+	paintingGreeting(currentValue);
 	saveName(currentValue);
 }
 
-function painting
+function askForName(){
+	form.classList.add(SHOWING_CH);
+	form.addEventListener("submit",handleSubmit);
+}
 
+function paintingGreeting(text){
+	form.classList.remove(SHOWING_CH);
+	greeting.classList.add(SHOWING_CH);
+	greeting.innerText = `Hello ${text}`
+}
 
 function loadName(){
-	const currentUser = localStorage.getItem();
+	const currentUser = localStorage.getItem(USER_LS);
+	if (currentUser === null) {
+		askForName();
+	} else{
+		paintingGreeting(currentUser);
+	}
 }
 
 function init() {
