@@ -1,5 +1,5 @@
 body{
-	background-color:#008080;
+	background-color:#3e3d3d;
 }
 
 h1,h2,h3,h4{
@@ -13,7 +13,7 @@ h4{
 }
 
 .clicked{
-	color:#7f8c8d;
+	color:#DDC4C4;
 }
 
 .form,.greeting{
