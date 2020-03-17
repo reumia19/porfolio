@@ -27,7 +27,7 @@ function handleSubmit(event){
 function paintToDoList(text){
 	const li = document.createElement("li");
 	const delBtn = document.createElement("button");
-	delBtn.value ="X";
+	delBtn.innerText ="delete";
 	const span = document.createElement("span");
 
 	span.innerText = text;
