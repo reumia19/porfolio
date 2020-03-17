@@ -25,5 +25,14 @@ function handleSubmit(event){
 }
 
 function paintToDoList(text){
+	const li = document.createElement("li");
+	const delBtn = document.createElement("button");
+	delBtn.value ="X";
+	const span = document.createElement("span");
+
+	span.innerText = text;
+	li.appendChild(span);
+	li.appendChild(delBtn);
+	toDoList.appendChild(li);
 
 }
