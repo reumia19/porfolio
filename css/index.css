@@ -23,3 +23,9 @@ h4{
 .showing{
 	display: block;
 }
+
+.backgroundVideo{
+	display: absolute;
+	height: 50%;
+	width: 50%;
+}
