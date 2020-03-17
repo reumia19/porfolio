@@ -21,9 +21,9 @@ function handleSubmit(event){
 	event.preventDefault();
 	const currentValue = toDoInput.value;
 	paintToDoList(currentValue);
-	currentValue = "";
+	toDoInput.value = "";
 }
 
 function paintToDoList(text){
-	
+
 }
