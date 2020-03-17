@@ -2,5 +2,19 @@ const toDoForm = document.querySelector(".js-toDoForm");
 const toDoInput = toDoForm.querySelector("input");
 const toDoList = document.querySelector(".js-toDoList");
 
-const TODOS_LS ="toDoList";
+const TODOS_LS ="toDos";
 
+function init(){
+	loadToDoList();
+	toDoForm.addEventListener("submit",handleSubmit);
+}
+
+init();
+
+function loadToDoList(){
+
+}
+
+function handleSubmit(event){
+	
+}
