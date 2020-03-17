@@ -12,9 +12,18 @@ function init(){
 init();
 
 function loadToDoList(){
+	const toDos = localStorage.getItem(TODOS_LS);
+
 
 }
 
 function handleSubmit(event){
+	event.preventDefault();
+	const currentValue = toDoInput.value;
+	paintToDoList(currentValue);
+	currentValue = "";
+}
+
+function paintToDoList(text){
 	
 }
