@@ -15,7 +15,7 @@ function getTime(){
 		seconds < 10 ? `0${seconds}` : seconds
 	}`;
 	
-	console.dir(date);
+	// console.dir(date);
 }
 
 function initClock(){
