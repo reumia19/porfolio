@@ -44,3 +44,7 @@ function paintToDoList(text){
 	}
 	todos.push(toDoObj);
 }
+
+function saveToDos(){
+	localStorage.setItem(TODOS_LS,toDos);
+}
