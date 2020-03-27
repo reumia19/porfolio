@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+div{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding: auto;
+	border-radius: 30px;
+	background-color: #173f5f;
+	min-width: 300px;
+	min-height: 250px;
+	text-align: center;
+}
+
+a{
+	margin-top: 40px;
+	margin-left: 30px;
+	width: 230px;
+	display: block;
+	text-align: center;
+	color: #ddd;
+	font-weight: bold;
+	font-size: 1.5em;
+}
