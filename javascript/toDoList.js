@@ -38,11 +38,11 @@ function paintToDoList(text){
 	li.appendChild(delBtn);
 	toDoList.appendChild(li);
 
-	const toDoObj{
+	const toDoObj = {
 		text : text,
 		id : newId
-	}
-	todos.push(toDoObj);
+	};
+	toDos.push(toDoObj);
 }
 
 function saveToDos(){
