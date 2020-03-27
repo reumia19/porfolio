@@ -81,3 +81,14 @@ header{
 	height: 50%;
 	width: 50%;
 }
+
+li{
+	display: flex;
+	padding: 10px
+	font-size: 2.5em;
+	background: #ddd;
+	color: #fff;
+}
+li>span{
+	margin: 5px 10px;
+}
