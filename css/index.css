@@ -1,5 +1,5 @@
 body{
-	background-color:#3e3d3d;
+	background-color:#999;
 }
 
 h1,h2,h3,h4{
@@ -10,6 +10,17 @@ h1,h2,h3,h4{
 
 h4{
 	padding-top: 10px;
+}
+
+header{
+	height: 90px;
+	background: #173f5f;
+	max-width: 1000px;
+}
+
+#title{
+	float: left;
+	padding: 10 10px;
 }
 
 .clicked{
